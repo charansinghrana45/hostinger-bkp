@@ -1,0 +1,206 @@
+s/* 
+    Text fields 
+*/
+.body
+{
+background-image:url("http://reachit.esy.es/cs/doc/landing_image.png");
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+.maincontainer{
+	margin: 50px 100px;
+}
+
+.npidname{
+	color:green;
+	font-weight:bold;
+}
+
+div.input-group-option:last-child span.input-group-addon-remove{
+    display: none;
+}
+
+div.input-group-option:last-child input.form-control{
+    border-bottom-right-radius: 18px;
+	border-top-right-radius: 3px;
+	background-color: cyan;
+    color: #000;
+    width: 300px;
+	height: 30px;
+}
+
+div.input-group-option span.input-group-addon-remove{
+	cursor: pointer;
+}
+
+div.input-group-option{
+    margin-bottom: 3px;
+}
+
+/* 
+    Selects 
+*/
+
+div.input-group-multiple-select:last-child span.input-group-addon-remove{
+	display: none;
+}
+
+div.input-group-multiple-select:last-child input.form-control{
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: orange;
+}
+
+div.input-group-multiple-select select.form-control{
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: cyan;
+	height: 30px;
+	width: 200px;
+}
+
+.form-control option{
+	text-align:left;
+}
+
+div.input-group-multiple-select span.input-group-addon-remove{
+	cursor: pointer;
+    background: none;
+    border: none;
+}
+
+div.input-group-multiple-select{
+    margin-bottom: 5px;
+}
+
+/* CS Custom CSS */
+
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+h3 {
+border-bottom: 1px solid #289728;
+color:#0080ff;
+font-size:14pt;
+width:300px;
+}
+h3 span {
+position: relative;
+left: -0.3em;
+bottom: -0.6em;
+padding: 1px 0.5em;
+margin: 0;
+border: 1px solid #289728;
+background-color: #fff;
+}
+
+
+.mySubButton {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin-top:30px;
+}
+.mySubButton:hover {
+	background-color:#5cbf2a;
+}
+.mySubButton:active {
+	position:relative;
+	top:1px;
+}
+
+.Label a {
+ -moz-border-bottom-colors: none;
+ -moz-border-left-colors: none;
+ -moz-border-right-colors: none;
+ -moz-border-top-colors: none;
+ background-color: #7FBF4D;
+ background-image: -moz-linear-gradient(center top , #7FBF4D, #63A62F);
+ border-bottom-right-radius: 30px;
+ border-color: #63A62F #63A62F #5B992B;
+ border-image: none;
+ border-style: solid;
+ border-top-left-radius: 30px;
+ border-width: 1px;
+ box-shadow: 0px 1px 0px 0px #96CA6D inset;
+ color: #FFFFFF;
+ float: left;
+ font: 14px verdana;
+ height: 18px;
+ margin-bottom: 30px;
+ margin-left: 0px;
+ padding: 10px;
+ position: relative;
+ text-decoration: none;
+ transition: all 0.5s ease-in-out 0s;
+ }
+ 
+ .Label a:hover {
+ background: none repeat scroll 0% 0% orange;
+ border-radius: 0px 30px 0px 30px;
+ border: 1px solid orange;
+ text-shadow: 5px 5px 5px #DCDCDC;
+ }
+ 
+ .Label {
+ margin: 0px;
+ padding: 0px;
+ position: relative;
+ }
+ .Label li:hover {
+ transform: rotate(5deg);
+ }
+ .Label li {
+ float: left;
+ font-size: 116%;
+ list-style: none outside none;
+ transition: all 0.3s ease 0s;
+ }
