@@ -1,0 +1,68 @@
+amazon ec2, rds, s3
+------------------------------
+Goto https://aws.amazon.com
+
+a)create an account 
+b)sign in 
+c)goto console (dashboard)
+
+Goto Documentation
+https://aws.amazon.com/documentation/
+
+1)For Setting Up Amazon RDS
+Goto https://aws.amazon.com/documentation/rds/ and click on Link "HTML" under user guide section. So now we are on the below link's page.
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html -- we can see all the details to create and use amazon rds.
+
+
+2)For Setting Up Amazon S3
+Goto https://aws.amazon.com/documentation/s3/ and click on Link "HTML" under user guide section. So now we are on the below link's page.
+https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html -- we can see all the details to create and use amazon s3 buckets
+
+
+3)For Setting Up Amazon S3
+Goto https://aws.amazon.com/documentation/ec2/ and click on Link "HTML" under user guide section. So now we are on the below link's page.
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html -- we can see all the details related to create and use amazon ec2.
+
+
+4)To install apache web server in ec2 instance and connect to amazon rds(mysql server) for php mysql application
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateWebServer.html
+
+
+
+5)to install lamp in ec2 instance 
+a)with the use of downloaded key (ppm file) during ec2 instance creation we can connect to ec2 instance through Putty.
+a.1) to transfer ownership of www directory we can use following command
+sudo chown ubuntu www/
+b)now to upload file in ec2 instance we can use software like winscp or ftp.
+
+6)live video to configure ec2
+https://www.youtube.com/watch?v=wNr7YqjjzOY&t=434s
+https://www.youtube.com/watch?v=8ffVMycEn2k
+https://www.youtube.com/watch?v=yjPlMEDn-Q4
+https://www.youtube.com/watch?v=9iLQswq_-NI
+
+https://www.youtube.com/watch?v=NRDPahpJD1w
+https://www.youtube.com/watch?v=ikUd9i8d4mI
+
+7)connect to ec2 instance through putty on windows:
+a)instal software like lamp
+sudo apt-get install php5 apache2 libapache2-mod-php5 mysql-server php5-mysql
+
+b)sudo apt-get update
+
+c)sudo service apache2 restart
+
+d)mysql_secure_installation
+
+e)mysql -u root -p
+
+f)sudo apt-get install phpmyadmin
+
+
+8)connect ec2 instance public dns with domain name like( www.example.com) using amazon route 53 service
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html
+
+
+
+
+

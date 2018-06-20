@@ -1,0 +1,34 @@
+create oauth2-server-php
+-------------------------------------------------------
+
+https://github.com/bshaffer/oauth2-server-php
+
+http://bshaffer.github.io/oauth2-server-php-docs/cookbook/
+
+
+some idea about oauth2
+https://aaronparecki.com/oauth-2-simplified/#single-page-apps
+
+
+https://www.youtube.com/watch?v=apvyhvaD4lo
+
+
+GIT MERGING
+-------------------
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
+
+
+PHPUNIT
+---------------------
+https://www.startutorial.com/articles/view/phpunit-beginner-part-2-data-provider
+https://phpunit.de/manual/6.5/en/test-doubles.html
+
+Ecommerce Website Tutorial
+--------------------------------
+https://www.youtube.com/watch?v=teX_e9xJ1M8
+
+HTML5 Tags
+https://www.quackit.com/html_5/tags/html_aside_tag.cfm
+http://slicknav.io/
