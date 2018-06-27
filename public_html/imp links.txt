@@ -32,3 +32,8 @@ https://www.youtube.com/watch?v=teX_e9xJ1M8
 HTML5 Tags
 https://www.quackit.com/html_5/tags/html_aside_tag.cfm
 http://slicknav.io/
+
+
+Angularjs video
+----------------------------------------------------------------
+https://www.youtube.com/watch?v=_v3R7EUZaBU            --angularjs with ci
