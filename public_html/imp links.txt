@@ -37,3 +37,4 @@ http://slicknav.io/
 Angularjs video
 ----------------------------------------------------------------
 https://www.youtube.com/watch?v=_v3R7EUZaBU            --angularjs with ci
+https://www.youtube.com/watch?v=871_PMieyxI
